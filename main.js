@@ -66,7 +66,7 @@ function plotLifeChart() {
         $('#mainpanegraphic').append("<div id='graphic_row_"+row+"' class='decadeBlock'></div>");
 
         for(var column=0;column<20; column++) {
-            $('#graphic_row_'+row).append('<span id="graphic_year_'+row+'_'+column+'" class="yearBlock"><small>'+curYear+'</small><br/><span>');
+            $('#graphic_row_'+row).append('<span id="graphic_year_'+row+'_'+column+'" class="yearBlock">'+curYear+'<br/><span>');
 
             curWeekOfYear=1;
 
