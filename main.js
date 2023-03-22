@@ -24,7 +24,7 @@ function calculateEverything() {
         if(localStorage.nameInput) prependString=localStorage.nameInput+", only ";
         else prependString="Only "
 
-        $('#weeksLeft').html(prependString+weeksLeft+" Sundays remain");
+        $('#weeksLeft').html(prependString+weeksLeft.toLocaleString('en', {useGrouping:true})+" Sundays remain");
         $('#ageInput').hide();
 
         plotLifeChart();
