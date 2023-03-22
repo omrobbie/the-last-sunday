@@ -7,27 +7,17 @@
         #ageInput {text-align: left; display: none;}
         #ageInputContainer {width: 100%;}
 
-        #weeksLeft {margin-bottom: 30px;}
-        #leftpane {float: left; width: 500px; margin-right: 100px; text-align: left; display: none;}
-        #rightpane {float: left; width: 500px; text-align: left; display: none;}
-
         div#main {width: 1100px; margin-left: auto; margin-right: auto;}
         div#mainpane {width: 1000px;  margin-left: 50px; margin-bottom: 50px;}
         div.clear {clear: both;}
-
-        .decadeBlock {margin-bottom: 10px;}
+        
+        #weeksLeft {margin-bottom: 30px;}
         .weekBlockSpent {width: 5px; height: 5px; margin-right: 2px; background-color: red; display: inline-block;}
         .weekBlockLeft {width: 5px; height: 5px; margin-right: 2px; background-color: green; display: inline-block;}
         .weekBlockNotBorn {width: 5px; height: 5px; margin-right: 2px; background-color: white; display: inline-block;}
         .monthBlock {width: auto; height: 6px; display: inline-block;}
         .yearBlock {margin-right: 10px; display: inline-block;}
-
-        #footer {margin-top: 100px; margin-bottom: 50px;}
-        #title {margin-bottom: 30px;}
-        small {font-size: 11px}
-
-        a {color: white;}
-        a:hover {color: lightgray;}
+        .decadeBlock {margin-bottom: 10px;}
     </style>
 
     <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
@@ -50,25 +40,6 @@
 
         <div id="mainpane">
             <div id="mainpanegraphic"></div>
-        </div>
-
-        <h2 id="title"></h2>
-
-        <div id="leftpane">
-            <p><strong>If I happen to die soon, my life (so far) will be remembered as</strong></p>
-            <div id='stuffDoneContainer'><small>Enter key highlights of your life so far (separate via new lines)</small><br/><textarea id="stuffDone" rows=7 cols=80></textarea><br/><button id="stuffDoneButton">Save</button></div>
-            <ul id="listStuffDone"></ul>
-        </div>
-
-        <div id="rightpane">
-            <p><strong>In the finite number of weeks ahead, this is how I will spend them:</strong></p>
-            <div id='stuffTodoContainer'><small>Enter what you want to do in the weeks ahead (separate via new lines)</small><br/><textarea id="stuffTodo" rows=7 cols=80></textarea><br/><button id="stuffTodoButton">Save</button></div>
-            <ul id="listStuffTodo"></ul>
-        </div>
-
-        <div class="clear"></div>
-        <div id="footer">
-            <small><a href="#" id='onclick_showInspiration'>[get inspired]</a> | <a href="#" id='onclick_showEdits'>[change name, date or inspiration]</a></small>
         </div>
     </div>
 </body>
